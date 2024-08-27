@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "name": "aula8",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "docker-compose-up": "docker compose up",
+    "init-prisma": "prisma migrate dev --name init && prisma generate",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@prisma/client": "^5.18.0",
+    "prisma": "^5.18.0"
+  }
+}

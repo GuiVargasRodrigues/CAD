@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+</head>
+<body> 
+    <h1>Cadastro de Produtos</h1>
+    <div>
+        <form action="localhost:3000/delete" method="delete">
+            <div style-css='_inputs'>Cod:<input id="cod" type="text"></div>
+            <div style-css="_inputs">Produto:<input id="produto" type="text"></div>
+            <div style-css="_inputs">Descrição:<input id="descricao" type="text"></div>           
+            <div><button type="submit" label="Enviar">Enviar</button></div><br>
+            <div><button type="reset" label="Receber">Cancelar</button></div>  
+        </form>
+    </div>
+</body>
+</html>
+<style>
+    h1 {
+        text-align: center;
+        color: blue;
+    }
+    div {
+        background-color: aquamarine;
+        width: 300px;
+        height: 20px;
+        margin-right: 50px;
+    }
+    body {
+        background-color: aquamarine;
+    }
+    ._inputs {
+        border-color: rgb(245, 220, 233);
+        border-style: dotted;
+    }
+</style>
+
+ 
